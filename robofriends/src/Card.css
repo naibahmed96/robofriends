@@ -1,0 +1,25 @@
+.card {
+  background-color: lightgreen;
+  display: inline-block;
+  border-radius: 30px;
+  text-align: center;
+  margin: 10px;
+  
+
+}
+
+.card:hover {
+  animation-name: card-anim;
+  animation-duration: 1s;
+  transform: scale(1.05);
+}
+@keyframes card-anim {
+  0% {
+    transform: scale(1.07);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+  
+}
