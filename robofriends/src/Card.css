@@ -10,8 +10,10 @@
 
 .card:hover {
   animation-name: card-anim;
-  animation-duration: 1s;
+  animation-duration: .5s;
   transform: scale(1.05);
+  box-shadow: 2px 4px 8px #aaa,
+              -1px 0px 8px #ddd;
 }
 @keyframes card-anim {
   0% {
