@@ -1,7 +1,16 @@
+@font-face {
+  font-family: 'Sega Web Font';
+  font-weight: normal;
+  src: url('./SEGA.TTF') format('truetype');
+}
+
 .center {
   text-align: center;
 }
 
 h1 {
+  font-family: 'Sega Web Font';
   font-size: 4rem;
+  font-weight: 100;
+  color: #33d8f5;
 }
